@@ -10,6 +10,12 @@
     @yield('link')
 
     <title>DigPro</title>
+    {{-- <style>
+        /* Custom class to maintain 16:9 aspect ratio */
+        .aspect-w-16 {
+            padding-bottom: 56.25%; /* (9 / 16) * 100% */
+        }
+    </style> --}}
 </head>
 
 <body>
