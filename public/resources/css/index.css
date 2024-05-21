@@ -9,7 +9,8 @@
 
 body {
     min-height: 100vh;
-    background: url("../../resources/images/image.jpg") no-repeat;
+    /* background: url("../../resources/images/image.jpg") no-repeat; */
+    background: url("../../resources/images/BG_Web.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -86,6 +87,42 @@ body {
 .content-one {
     display: flex;
     padding: 20% 13%;
+}
+
+.button1 {
+    background-color: #FF0049; /* Warna latar belakang */
+    border: none; /* Tanpa border */
+    color: white; /* Warna teks */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Rata tengah */
+    text-decoration: none; /* Tanpa garis bawah */
+    display: inline-block; /* Inline-block */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Cursor pointer */
+    transition: background-color 0.3s, color 0.3s; /* Animasi transisi */
+    border-radius: 12px; /* Sudut melengkung */
+}
+
+.button1:hover {
+    background-color: white; /* Warna latar belakang saat hover */
+    color: #FF0049; /* Warna teks saat hover */
+}
+
+.div-button {
+    padding-top: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-form {
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
