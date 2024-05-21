@@ -19,6 +19,6 @@ class StatisticController extends Controller
     public function index()
 {
     $clicks = Statistic::where('button_name', 'Daftar Sekarang')->count();
-    return view('index', compact('clicks'));
+    return view('count_page', compact('clicks'));
 }
 }

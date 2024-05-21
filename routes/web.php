@@ -24,5 +24,5 @@ Route::get('/count_page.blade.php', function () {
     return view('count_page');
 });
 
-Route::get('/', [StatisticController::class, 'index']);
+Route::get('/count_page.blade.php', [StatisticController::class, 'index']);
 Route::get('/daftar_form', [StatisticController::class, 'store']);
