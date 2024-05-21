@@ -16,7 +16,7 @@
 
     <header class="header">
 
-        <img src="../../resources/images/logo.png" alt="logo" id="logo">
+        <a href="/"><img src="../../resources/images/logo.png" alt="logo" id="logo"></a>
 
         <input type="checkbox" id="check">
         <label for="check" class="icons">

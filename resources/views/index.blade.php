@@ -16,12 +16,19 @@
                 reputasi merek, meningkatkan efisiensi, dan memperluas jangkauan pasar untuk UMKM, membantu mereka sukses
                 dalam era digital. </p>
 
+
         </div>
 
-        <div class="image">
-
-            <img src="../../resources/images/logo.png" alt="">
-
+        <div class="video">
+            <video autoplay muted controls>
+                <source src="../../resources/images/UMKM Adalah Kita.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="div-button">
+                <form  class ="div-form" action="daftar_form.blade.php" method="get">
+                    <button class="button1">Daftar Sekarang</button>
+                </form>
+            </div>
         </div>
 
     </div>
