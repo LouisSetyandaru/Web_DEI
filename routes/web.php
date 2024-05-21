@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StatisticController;
+
 
 Route::get('/', function () {
     return view('index');
@@ -21,3 +23,6 @@ Route::get('/langganan_form.blade.php', function () {
 Route::get('/count_page.blade.php', function () {
     return view('count_page');
 });
+
+Route::get('/', [StatisticController::class, 'index']);
+Route::get('/daftar_form', [StatisticController::class, 'store']);
