@@ -8,24 +8,7 @@
 @section('content')
     <div class="content-one">
 
-        <div class="text">
-
-            <h1>Daftar Bang</h1>
-            <p> </p>
-
-        </div>
-
-        <div class="image">
-
-            <img src="../../resources/images/logo.png" alt="">
-
-        </div>
-
-    </div>
-
-    <div class="content-two">
-
-        <h1>Testimoni</h1>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241240247864051"></script>
 
     </div>
 @endsection
