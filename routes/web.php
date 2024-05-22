@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StatisticController;
+use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
@@ -24,5 +24,5 @@ Route::get('/count_page.blade.php', function () {
     return view('count_page');
 });
 
-Route::get('/count_page.blade.php', [StatisticController::class, 'index']);
 Route::get('/daftar_form', [StatisticController::class, 'store']);
+Route::get('/count_page', [StatisticController::class, 'index']);
