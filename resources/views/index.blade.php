@@ -25,9 +25,12 @@
                 Your browser does not support the video tag.
             </video>
             <div class="div-button">
-                <form class ="div-form" action="daftar_form.blade.php" method="get">
+
+                <form class="div-form" action="{{ url('/daftar_form') }}" method="get">
+
                     <button class="button1">Daftar Sekarang</button>
                 </form>
+
             </div>
         </div>
 
@@ -173,4 +176,5 @@
             </div>
         </div>
     </div>
+
 @endsection
