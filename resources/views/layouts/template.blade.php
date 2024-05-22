@@ -10,6 +10,12 @@
     @yield('link')
 
     <title>DigPro</title>
+    {{-- <style>
+        /* Custom class to maintain 16:9 aspect ratio */
+        .aspect-w-16 {
+            padding-bottom: 56.25%; /* (9 / 16) * 100% */
+        }
+    </style> --}}
 </head>
 
 <body>
@@ -35,7 +41,7 @@
             <a href="daftar_form.blade.php" style="--i:3">Daftar</a>
             <a href="" style="--i:3">Tentang Kami</a>
             <a href="butuh_bantuan.blade.php" style="--i:3">Butuh Bantuan</a>
-
+            <a href="langganan_form.blade.php" style="--i:3">Langganan</a>
         </nav>
 
     </header>
