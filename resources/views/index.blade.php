@@ -118,15 +118,17 @@
     <div class="content-two">
 
         <div class="container mx-auto py-8">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 <!-- Card 1 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
                     <img class="w-full h-48 object-cover object-center" src="../../resources/images/card1.jpg"
                         alt="Image">
                     <div class="p-4">
-                        <h2 class="font-bold text-lg mb-2">Meningkatkan penjualan Bisnis Anda</h2>
-                        <p class="text-gray-600">Dengan strategi digital marketing yang tepat, DIGPRO dapat membantu UMKM
-                            meningkatkan penjualan dan keuntungan. </p>
+                        <h2 class="font-bold text-lg mb-2">Paket 1 Bulan</h2>
+                        <p class="text-gray-600">1.Cocok untuk bisnis awal-awal yang ingin mencoba digitalisasi.</p>
+                        <p class="text-gray-600">2.Mendapatkan 8-6 konten/postingan.</p>
+                        <p class="text-gray-600">3.Ideal untuk meningkatkan eksposur online dan membangun brand awarnerss.</p>
+                        <h1 class="font-bold text-lg mb-2">Hanya Rp.250.000</h1>
                     </div>
                     <div class="mt-4">
                         <form class="div-form" action="langganan_form.blade.php" method="get">
@@ -139,9 +141,28 @@
                     <img class="w-full h-48 object-cover object-center" src="../../resources/images/card2.jpg"
                         alt="Image">
                     <div class="p-4">
-                        <h2 class="font-bold text-lg mb-2">Membangun reputasi brand Bisnis Anda </h2>
-                        <p class="text-gray-600">DIGPRO membantu UMKM membangun kredibilitas dan profesionalisme dengan
-                            memiliki website dan akun media sosial yang aktif dan menarik. </p>
+                        <h2 class="font-bold text-lg mb-2">Paket 3 Bulan</h2>
+                        <p class="text-gray-600"> 1.Pilihan tepat untuk bisnis yang ingin komitmen jangka pendek.</p>
+                        <p class="text-gray-600"> 2.Mendapatkan total 24-48 konten/postingan/story.</p>
+                        <p class="text-gray-600"> 3.Dilengkapi dengan panduan dan pelatihan dasar untuk mengelola media sosial.</p>
+                        <h1 class="font-bold text-lg mb-2">Hanya Rp.690.000</h1>
+                    </div>
+                    <div class="mt-4">
+                        <form class="div-form" action="langganan_form.blade.php" method="get">
+                            <button class="button1 bg-blue-500 text-white px-4 py-2 rounded">Coba Sekarang</button>
+                        </form>
+                    </div>
+                </div>
+                 <!-- Card 3 -->
+                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img class="w-full h-48 object-cover object-center" src="../../resources/images/card2.jpg"
+                        alt="Image">
+                    <div class="p-4">
+                        <h2 class="font-bold text-lg mb-2">Paket 6 Bulan</h2>
+                        <p class="text-gray-600">1.Solusi hemat biaya untuk bisnis yang ingin berkembang secara bertahap.</p>
+                        <p class="text-gray-600">2.Mendapatkan total 48-96 konten/postingan/story.</p>
+                        <p class="text-gray-600">3.Mendapatkan website landing page sederhana dengan full maintenance selama 6 bulan.</p>
+                        <h1 class="font-bold text-lg mb-2">Hanya Rp.1.450.000</h1>
                     </div>
                     <div class="mt-4">
                         <form class="div-form" action="langganan_form.blade.php" method="get">
