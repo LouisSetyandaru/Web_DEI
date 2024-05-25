@@ -20,5 +20,6 @@ class StatisticController extends Controller
 {
     $clicks = Statistic::where('button_name', 'Daftar Sekarang')->count();
     return view('count_page', compact('clicks'));
+
 }
 }
