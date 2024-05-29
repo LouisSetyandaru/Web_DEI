@@ -10,7 +10,7 @@
 
         <div class="text">
 
-            <h1>Jumlah Klik Tombol "Daftar Sekarang": {{ $clicks }}</h1>
+            <h1>Jumlah Klik Tombol "Daftar Sekarang"{{ $clicks }}: </h1>
 
         </div>
 

@@ -23,6 +23,9 @@ Route::get('/langganan_form.blade.php', function () {
 Route::get('/count_page.blade.php', function () {
     return view('count_page');
 });
+Route::get('/daftar_form', function () {
+    return view('daftar_form');
+})->name('daftar_form');
+Route::post('/daftar_form', [StatisticController::class, 'store'])->name('store');
 
-Route::get('/daftar_form', [StatisticController::class, 'store']);
-Route::get('/count_page', [StatisticController::class, 'index']);
+Route::get('/', [StatisticController::class, 'index']);

@@ -13,13 +13,13 @@ class StatisticController extends Controller
             'button_name' => 'Daftar Sekarang'
         ]);
 
-        return redirect()->back();
+        return redirect()->route('daftar_form');
     }
 
     public function index()
 {
     $clicks = Statistic::where('button_name', 'Daftar Sekarang')->count();
-    return view('count_page', compact('clicks'));
+    return view('index', compact('clicks'));
 
 }
 }

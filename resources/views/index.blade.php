@@ -24,13 +24,14 @@
             Your browser does not support the video tag.
         </video>
         <div class="flex justify-center mt-4">
-            <form class="div-form" action="{{ url('/daftar_form') }}" method="get">
+            <form class="div-form" action="{{ route('store') }}" method="post">
+                @csrf
                 <button class="button1 text-lg px-8 py-4 mb-14">Daftar Sekarang</button>
             </form>
         </div>
     </div>
 
-    <h5 class="text-2xl font-bold mb-24 text-white text-center">Jadilah customer kami yang kesekian</h5>
+    <h5 class="text-2xl font-bold mb-24 text-white text-center">Jadilah customer kami yang ke-{{ $clicks }}</h5>
 
 
     <h2 class="text-4xl font-bold mb-14 text-white text-center">Tujuan Kami</h2>
