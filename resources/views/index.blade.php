@@ -135,15 +135,15 @@
                             <li>Ideal untuk meningkatkan eksposur online dan membangun brand awareness.</li>
                         </ul>
                         <h1 class="font-bold text-xl text-center text-red-400">Hanya Rp.250.000</h1>
-                        <!-- Center aligned and colored price -->
+
                     </div>
-                    <div class="p-4 flex justify-center"> <!-- Added padding and centered the button -->
+                    <div class="p-4 flex justify-center"> 
                         <form class="div-form" action="langganan_form.blade.php" method="get">
                             <button class="button1">Coba Sekarang</button>
                         </form>
                     </div>
                 </div>
-                <!-- Card 2 -->
+
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
                     <img class="w-full h-48 object-cover object-center" src="../../resources/images/card2.jpg"
                         alt="Image">
@@ -155,7 +155,7 @@
                             <li>Dilengkapi dengan panduan dan pelatihan dasar untuk mengelola media sosial.</li>
                         </ul>
                         <h1 class="font-bold text-xl text-center text-red-400">Hanya Rp.690.000</h1>
-                        <!-- Center aligned and colored price -->
+
                     </div>
                     <div class="p-4 flex justify-center"> <!-- Added padding and centered the button -->
                         <form class="div-form" action="langganan_form.blade.php" method="get">
@@ -177,7 +177,7 @@
                             <li>Mendapatkan website landing page sederhana dengan full maintenance selama 6 bulan.</li>
                         </ul>
                         <h1 class="font-bold text-xl text-center text-red-400">Hanya Rp.1.450.000</h1>
-                        <!-- Center aligned and colored price -->
+
                     </div>
                     <div class="p-4 flex justify-center"> <!-- Added padding and centered the button -->
                         <form class="div-form" action="langganan_form.blade.php" method="get">

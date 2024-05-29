@@ -12,6 +12,11 @@ Route::get('/daftar_form.blade.php', function () {
     return view('daftar_form');
 });
 
+
+Route::get('/tentang_kami.blade.php', function () {
+    return view('tentang_kami');
+});
+
 Route::get('/butuh_bantuan.blade.php', function () {
     return view('butuh_bantuan');
 });
