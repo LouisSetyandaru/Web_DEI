@@ -6,19 +6,16 @@
 @endsection
 
 @section('content')
-
     <div class="container mx-auto py-8 text-center mt-32">
-        <div class="image mb-14">
-            <img src="../../resources/images/logo.png" alt="Logo" class="mx-auto w-1/2 lg:w-1/3">
-
-        </div>
-
-        <div class="text mb-12">
-            <h1 class="text-lg lg:text-4xl font-bold"> <small>Digitalize your Business, Empower your Growth</small>
+        <div class="text mb-12 text-center">
+            <h1 class="text-lg lg:text-4xl font-bold text-white inline-block">
+                Digitalize your Business, Empower your Growth With
+                <img src="../../resources/images/logo.png" alt="Logo" class="w-1/4 lg:w-1/6 inline-block align-middle">
+            </h1>
         </div>
     </div>
 
-    <div class="video  w-full flex flex-col items-center"> <!-- Menambahkan mb-8 untuk margin bawah lebih besar -->
+    <div class="video  w-full flex flex-col items-center">
         <video class="w-full md:w-5/6 lg:w-3/4 xl:w-2/3" autoplay muted controls>
             <source src="../../resources/images/UMKM Adalah Kita.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -30,7 +27,8 @@
         </div>
     </div>
 
-    <h5 class="text-2xl font-bold mb-24 text-white text-center">Jadilah customer kami yang kesekian</h5>
+    <h5 class="text-2xl font-bold mb-24 text-white text-center">Jadilah customer kami dan raih keberhasilan bersama kami
+        dalam berbisnis</h5>
 
 
     <h2 class="text-4xl font-bold mb-14 text-white text-center">Tujuan Kami</h2>
