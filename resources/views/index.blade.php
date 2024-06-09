@@ -9,7 +9,7 @@
     <div class="container mx-auto py-8 text-center mt-32">
         <div class="text mb-12 text-center">
             <h1 class="text-lg lg:text-4xl font-bold text-white inline-block">
-                Digitalize your Business, Empower your Growth With
+                Digitalize your Business, Empower your Growth <span class="text-sm lg:text-2xl font-serif">with</span>
                 <img src="../../resources/images/logo.png" alt="Logo" class="w-1/4 lg:w-1/6 inline-block align-middle">
             </h1>
         </div>
