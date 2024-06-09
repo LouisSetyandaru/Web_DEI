@@ -9,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(rgb(15, 6, 30) 0%, rgb(95, 25, 211) 50%, rgb(15, 6, 30) 100%);
+    background: linear-gradient(rgb(15, 6, 30) 15%, rgb(95, 25, 211) 50%, rgb(15, 6, 30) 80%);
     background-size: cover;
     background-position: center;
 }
@@ -89,23 +89,23 @@ body {
 }
 
 .button1 {
-    background-color: #FF0049; /* Warna latar belakang */
-    border: none; /* Tanpa border */
-    color: white; /* Warna teks */
-    padding: 15px 32px; /* Padding */
-    text-align: center; /* Rata tengah */
-    text-decoration: none; /* Tanpa garis bawah */
-    display: inline-block; /* Inline-block */
-    font-size: 16px; /* Ukuran font */
-    margin: 4px 2px; /* Margin */
-    cursor: pointer; /* Cursor pointer */
-    transition: background-color 0.3s, color 0.3s; /* Animasi transisi */
-    border-radius: 12px; /* Sudut melengkung */
+    background-color: #FF0049;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 12px;
 }
 
 .button1:hover {
-    background-color: white; /* Warna latar belakang saat hover */
-    color: #FF0049; /* Warna teks saat hover */
+    background-color: white;
+    color: #FF0049;
 }
 
 .div-button {
@@ -122,17 +122,6 @@ body {
 .video {
     justify-content: center;
     align-items: center;
-}
-
-.text {
-    color: #fff;
-    width: fit-content;
-    margin-left: 10%;
-}
-
-.text h1 {
-    font-size: 3rem;
-    font-weight: bold;
 }
 
 /* BREAKPOINTS */
