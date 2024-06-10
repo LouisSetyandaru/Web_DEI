@@ -39,7 +39,7 @@
 
     <header class="header">
 
-        <a href="/"><img src="../../resources/images/logo.png" alt="logo" id="logo"></a>
+        <a href="/home"><img src="../../resources/images/logo.png" alt="logo" id="logo"></a>
 
         <input type="checkbox" id="check">
         <label for="check" class="icons">
@@ -56,7 +56,7 @@
             {{-- <a href="" style="--i:2">Services</a> --}}
             {{-- <a href="" style="--i:3">Contact</a> --}}
             <a href="daftar_form.blade.php" style="--i:3">Daftar</a>
-            <a href="" style="--i:3">Tentang Kami</a>
+            <a href="tentang_kami.blade.php">Tentang Kami</a>
             <a href="butuh_bantuan.blade.php" style="--i:3">Butuh Bantuan</a>
             <a href="langganan_form.blade.php" style="--i:3">Langganan</a>
         </nav>
