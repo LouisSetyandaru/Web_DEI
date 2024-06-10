@@ -8,7 +8,7 @@
 @section('content')
 <div class="container mx-auto py-8 text-center mt-32">
     <div class="text mb-12">
-        <h1 class="text-lg lg:text-4xl font-bold"> <small>Meet our Team</small></h1>
+        <h1 class="text-white text-lg lg:text-4xl font-bold"> <small>Meet our Team</small></h1>
     </div>
 
     <div class="grid grid-cols-3 gap-8 mt-24 mb-48">

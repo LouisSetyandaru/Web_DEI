@@ -14,8 +14,7 @@
 
 
 
-    <div class="content-two">
-
+    <div class="content-two text-white">
 
         <div class="text mr-20">
             <h1 class="text-3xl font-bold mb-7 ">Semua paket termasuk:</h1>

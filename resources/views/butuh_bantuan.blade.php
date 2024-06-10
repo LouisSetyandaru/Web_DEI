@@ -8,8 +8,8 @@
 @section('content')
     <div class="content-one">
 
-        <div class="text mr-20">
-            <h1 class="text-3xl font-bold mb-7 ">Universitas Ciputra Surabaya</h1>
+        <div class="text-white mr-20">
+            <h1 class="text-3xl font-bold mb-7">Universitas Ciputra Surabaya</h1>
             <p class="text-lg mb-5">
                 Kunjungi kami di Universitas Ciputra Surabaya, tepatnya di CitraLand CBD Boulevard, Made, Kec. Sambikerep,
                 Surabaya, Jawa Timur 60219. Kami siap membantu Anda dengan berbagai kebutuhan, mulai dari informasi
@@ -21,16 +21,16 @@
             </p>
 
             <div class="flex mr-30">
-                <div class="text mr-35">
+                <div class="text-white mr-35">
                     <img src="../../resources/images/whatsapp.png" alt="" class="w-30 h-20 mb-4">
                     <p class="text-2xl font-bold mb-2 text-green-500">Whatsapp</p>
                     <p class="text-base mb-5">+628115912599</p>
                 </div>
 
-                <div class="text mr-35">
+                <div class="text-white mr-35 ml-8"> <!-- Menambahkan mt-8 untuk memberikan margin atas -->
                     <img src="../../resources/images/instagram.png" alt="" class="w-20 h-18 mb-4">
                     <p class="text-2xl font-bold mb-2 text-indigo-400">Instagram</p>
-                    <a href = "https://www.instagram.com/digpro_idn?igsh=c2dheXR6bDF5Zzl1" class="text-base mb-5">@digpro_idn</a>
+                    <a href="https://www.instagram.com/digpro_idn?igsh=c2dheXR6bDF5Zzl1" class="text-base mb-5">@digpro_idn</a>
                 </div>
             </div>
         </div>
@@ -44,15 +44,6 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </p>
         </div>
-
-    </div>
-
-
-</div>
-
-    <div class="content-two">
-
-        <h1>Testimoni</h1>
 
     </div>
 @endsection

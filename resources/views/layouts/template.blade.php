@@ -39,7 +39,7 @@
 
     <header class="header">
 
-        <a href="/home"><img src="../../resources/images/logo.png" alt="logo" id="logo"></a>
+        <a href="/"><img src="../../resources/images/logo.png" alt="logo" id="logo"></a>
 
         <input type="checkbox" id="check">
         <label for="check" class="icons">
