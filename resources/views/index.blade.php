@@ -27,8 +27,7 @@
         </div>
     </div>
 
-    <h5 class="text-2xl font-bold mb-24 text-white text-center">Jadilah customer kami dan raih keberhasilan bersama kami
-        dalam berbisnis</h5>
+    <h5 class="text-2xl font-bold mb-24 text-white text-center">Bisnis anda pantas untuk menjadi sukses</h5>
 
 
     <h2 class="text-4xl font-bold mb-14 text-white text-center">Tujuan Kami</h2>
@@ -186,11 +185,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center items-center min-h-screen">
-        <div class="container mx-auto py-8">
-            <div class="image">
-                <img src="../../resources/images/Diskon.png" alt="Logo" class="mx-auto">
-            </div>
-        </div>
+    <div class="flex justify-center mt-32 mb-32">
+        <h2 class="text-white text-3xl font-bold mb-1 text-center">Bersama, kita wujudkan transformasi digital UMKM yang sukses!</h2>
     </div>
 @endsection

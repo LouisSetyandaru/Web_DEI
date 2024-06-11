@@ -13,7 +13,7 @@ class StatisticController extends Controller
             'button_name' => 'Daftar Sekarang'
         ]);
 
-        return redirect()->back();
+        return redirect('/daftar_form');
     }
 
     public function index()
