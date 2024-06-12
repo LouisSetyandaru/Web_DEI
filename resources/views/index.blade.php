@@ -27,6 +27,13 @@
 .content-two .bg-white:hover p, .content-two .bg-white:hover li, .content-two .bg-white:hover h1 {
     color: white; /* Ubah warna teks saat dihover */
 }
+
+@media screen and (max-width: 600px) {
+    .custom-logo {
+        width: 100%; /* Menjadikan lebar gambar 100% saat tampilan mobile */
+        margin: 10px 0; /* Menambahkan margin vertikal 10px di antara gambar-gambar saat tampilan mobile */
+    }
+}
 </style>
 
     <div class="container mx-auto py-8 text-center mt-32">
@@ -136,7 +143,7 @@
 
     <h2 class="text-4xl font-bold mb-14 text-white text-center">Customer Kami</h2>
 
-    <div class="flex justify-center mt-16 mb-16">
+    <div class="flex justify-center mt-16 mb-16 flex-wrap">
         <img src="../../resources/images/customerlogo_arkwheels.png" alt="ArkWheels Logo" class="custom-logo">
         <img src="../../resources/images/customerlogo_desauge.png" alt="De'Sauge Logo" class="custom-logo">
         <img src="../../resources/images/customerlogo_tasku.png" alt="Tasku Logo" class="custom-logo">
