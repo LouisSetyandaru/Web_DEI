@@ -20,14 +20,14 @@
     <style>
         .navbar a {
             text-decoration: none;
-            color: white; /* Ganti dengan warna teks yang diinginkan */
+            color: white;
             transition: background-color 0.3s;
             padding: 10px;
         }
 
         .navbar a:hover {
-            background-color: #ff1847; /* Ganti dengan warna gelap yang diinginkan */
-            color: white; /* Ganti dengan warna teks yang diinginkan saat dihover */
+            background-color: #ff1847;
+            color: white;
         }
 
 

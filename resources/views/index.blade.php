@@ -6,6 +6,23 @@
 @endsection
 
 @section('content')
+
+<style>
+
+.content-two .bg-white {
+    transition: background-color 0.3s, color 0.3s; /* Tambahkan efek transisi untuk perubahan warna */
+}
+
+.content-two .bg-white:hover {
+    background-color: #ff1847; /* Ubah warna latar belakang saat dihover */
+}
+
+.content-two .bg-white:hover h2,
+.content-two .bg-white:hover p, .content-two .bg-white:hover li, .content-two .bg-white:hover h1 {
+    color: white; /* Ubah warna teks saat dihover */
+}
+</style>
+
     <div class="container mx-auto py-8 text-center mt-32">
         <div class="text mb-12 text-center">
             <h1 class="text-lg lg:text-4xl font-bold text-white inline-block">

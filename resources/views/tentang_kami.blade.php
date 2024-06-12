@@ -8,10 +8,10 @@
 @section('content')
 <div class="container mx-auto py-8 text-center mt-32">
     <div class="text mb-12">
-        <h1 class="text-white text-lg lg:text-4xl font-bold"> <small>Meet our Team</small></h1>
+        <h1 class="text-white text-lg lg:text-4xl font-bold meet-our-team"><small>Meet our Team</small></h1>
     </div>
 
-    <div class="grid grid-cols-3 gap-8 mt-24 mb-48">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-24 mb-48">
         <!-- 3 anggota tim di atas -->
         <div class="team-member flex flex-col items-center">
             <div class="w-64 h-64 bg-gray-200 rounded-full overflow-hidden mx-auto mb-4">
@@ -50,29 +50,28 @@
             </div>
         </div>
 
-        <div class="team-wrapper flex justify-center items-center col-span-3 gap-32 mt-12">
-            <div class="team-member flex flex-col items-center">
-                <div class="w-64 h-64 bg-gray-200 rounded-full overflow-hidden mx-auto mb-4">
-                    <img src="../../resources/images/michaeldavidsin.png" alt="Team 1" class="w-full h-full object-cover">
-                </div>
-                <div class="info-box bg-white rounded-md shadow-md p-4">
-                    <h2 class="font-semibold text-lg text-red-400">Michael David Sin</h2>
-                    <div class="instagram-info flex items-center justify-center mb-4">
-                        <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
-                        <p class="text-sm text-indigo-400">@michaeldavidsin</p>
-                    </div>
+        <!-- Div with Michael and Bernicko cards -->
+        <div class="team-member flex flex-col items-center">
+            <div class="w-64 h-64 bg-gray-200 rounded-full overflow-hidden mx-auto mb-4">
+                <img src="../../resources/images/michaeldavidsin.png" alt="Team 1" class="w-full h-full object-cover">
+            </div>
+            <div class="info-box bg-white rounded-md shadow-md p-4">
+                <h2 class="font-semibold text-lg text-red-400">Michael David Sin</h2>
+                <div class="instagram-info flex items-center justify-center mb-4">
+                    <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
+                    <p class="text-sm text-indigo-400">@michaeldavidsin</p>
                 </div>
             </div>
-            <div class="team-member flex flex-col items-center">
-                <div class="w-64 h-64 bg-gray-200 rounded-full overflow-hidden mx-auto mb-4">
-                    <img src="../../resources/images/bernicko.png" alt="Team 1" class="w-full h-full object-cover">
-                </div>
-                <div class="info-box bg-white rounded-md shadow-md p-4">
-                    <h2 class="font-semibold text-lg text-red-400">Bernicko Raphael Sugito</h2>
-                    <div class="instagram-info flex items-center justify-center mb-4">
-                        <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
-                        <p class="text-sm text-indigo-400">@bernicko_rphl</p>
-                    </div>
+        </div>
+        <div class="team-member flex flex-col items-center">
+            <div class="w-64 h-64 bg-gray-200 rounded-full overflow-hidden mx-auto mb-4">
+                <img src="../../resources/images/bernicko.png" alt="Team 1" class="w-full h-full object-cover">
+            </div>
+            <div class="info-box bg-white rounded-md shadow-md p-4">
+                <h2 class="font-semibold text-lg text-red-400">Bernicko Raphael Sugito</h2>
+                <div class="instagram-info flex items-center justify-center mb-4">
+                    <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
+                    <p class="text-sm text-indigo-400">@bernicko_rphl</p>
                 </div>
             </div>
         </div>

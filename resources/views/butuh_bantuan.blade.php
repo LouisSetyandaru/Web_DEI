@@ -2,10 +2,57 @@
 
 @section('link')
     @include('layouts/style')
-    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="stylesheet" href="{{ asset('resources/css/index.css') }}">
 @endsection
 
 @section('content')
+    <style>
+        .content-one {
+            display: flex;
+            flex-wrap: wrap;
+            /* Allows flex items to wrap */
+            justify-content: space-between;
+            /* Adjusts the space between items */
+        }
+
+        .image {
+            flex: 1;
+            /* Ensures the image takes up available space */
+            margin-top: 20px;
+            /* Adds space above the image */
+        }
+
+        .image iframe {
+                width: 1050px;
+                /* Makes iframe full width */
+                height: 450px;
+                /* Adjusts height for landscape view */
+            }
+
+        @media (max-width: 768px) {
+            .content-one {
+                flex-direction: column;
+                /* Stacks items vertically */
+                align-items: center;
+                /* Centers items */
+            }
+
+            .image {
+                width: 100%;
+                /* Makes image div full width */
+                margin-top: 20px;
+                /* Adds space above the image */
+            }
+
+            .image iframe {
+                width: 100%;
+                /* Makes iframe full width */
+                height: 300px;
+                /* Adjusts height for landscape view */
+            }
+        }
+
+    </style>
     <div class="content-one">
 
         <div class="text-white mr-20">
@@ -22,27 +69,25 @@
 
             <div class="flex mr-30">
                 <div class="text-white mr-35">
-                    <img src="../../resources/images/whatsapp.png" alt="" class="w-30 h-20 mb-4">
+                    <img src="{{ asset('resources/images/whatsapp.png') }}" alt="Whatsapp" class="w-30 h-20 mb-4">
                     <p class="text-2xl font-bold mb-2 text-green-500">Whatsapp</p>
                     <p class="text-base mb-5">+628115912599</p>
                 </div>
 
-                <div class="text-white mr-35 ml-8"> <!-- Menambahkan mt-8 untuk memberikan margin atas -->
-                    <img src="../../resources/images/instagram.png" alt="" class="w-20 h-18 mb-4">
+                <div class="text-white mr-35 ml-8">
+                    <img src="{{ asset('resources/images/instagram.png') }}" alt="Instagram" class="w-20 h-18 mb-4">
                     <p class="text-2xl font-bold mb-2 text-indigo-400">Instagram</p>
-                    <a href="https://www.instagram.com/digpro_idn?igsh=c2dheXR6bDF5Zzl1" class="text-base mb-5">@digpro_idn</a>
+                    <a href="https://www.instagram.com/digpro_idn?igsh=c2dheXR6bDF5Zzl1"
+                        class="text-base mb-5">@digpro_idn</a>
                 </div>
             </div>
         </div>
 
         <div class="image">
-
-            <p class="mb-5">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6060211288845!2d112.62902667592162!3d-7.285587192721758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fde455555555%3A0xd7e2611ae591f046!2sUniversitas%20Ciputra%20Surabaya!5e0!3m2!1sen!2sid!4v1716298726234!5m2!1sen!2sid"
-                    width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6060211288845!2d112.62902667592162!3d-7.285587192721758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fde455555555%3A0xd7e2611ae591f046!2sUniversitas%20Ciputra%20Surabaya!5e0!3m2!1sen!2sid!4v1716298726234!5m2!1sen!2sid"
+                width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
     </div>

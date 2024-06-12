@@ -7,6 +7,23 @@
 
 @section('content')
 
+<style>
+
+    .content-two .bg-white {
+        transition: background-color 0.3s, color 0.3s; /* Tambahkan efek transisi untuk perubahan warna */
+    }
+
+    .content-two .bg-white:hover {
+        background-color: #ff1847; /* Ubah warna latar belakang saat dihover */
+    }
+
+    .content-two .bg-white:hover h2,
+    .content-two .bg-white:hover p, .content-two .bg-white:hover li, .content-two .bg-white:hover h1 {
+        color: white; /* Ubah warna teks saat dihover */
+    }
+    </style>
+
+
     <div class="content-one">
         <script type="text/javascript" src="https://form.jotform.com/jsform/241414253941451"></script>
     </div>
@@ -31,11 +48,6 @@
                         <h1 class="font-bold text-xl text-center text-red-400">Hanya Rp.250.000</h1>
                         <!-- Center aligned and colored price -->
                     </div>
-                    <div class="p-4 flex justify-center"> <!-- Added padding and centered the button -->
-                        <form class="div-form" action="langganan_form.blade.php" method="get">
-                            <button class="button1">Coba Sekarang</button>
-                        </form>
-                    </div>
                 </div>
                 <!-- Card 2 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
@@ -50,11 +62,6 @@
                         </ul>
                         <h1 class="font-bold text-xl text-center text-red-400">Hanya Rp.690.000</h1>
                         <!-- Center aligned and colored price -->
-                    </div>
-                    <div class="p-4 flex justify-center"> <!-- Added padding and centered the button -->
-                        <form class="div-form" action="langganan_form.blade.php" method="get">
-                            <button class="button1">Coba Sekarang</button>
-                        </form>
                     </div>
                 </div>
 
@@ -72,11 +79,6 @@
                         </ul>
                         <h1 class="font-bold text-xl text-center text-red-400">Hanya Rp.1.450.000</h1>
                         <!-- Center aligned and colored price -->
-                    </div>
-                    <div class="p-4 flex justify-center"> <!-- Added padding and centered the button -->
-                        <form class="div-form" action="langganan_form.blade.php" method="get">
-                            <button class="button1">Coba Sekarang</button>
-                        </form>
                     </div>
                 </div>
             </div>
