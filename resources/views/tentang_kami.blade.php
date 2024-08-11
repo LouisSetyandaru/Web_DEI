@@ -8,7 +8,7 @@
 @section('content')
 <div class="container mx-auto py-8 text-center mt-32">
     <div class="text mb-12">
-        <h1 class="text-white text-lg lg:text-4xl font-bold meet-our-team"><small>Meet our Team</small></h1>
+        <h1 class="text-white text-lg lg:text-6xl font-bold meet-our-team"><small>Meet our Team</small></h1>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-24 mb-48">
@@ -18,7 +18,7 @@
                 <img src="../../resources/images/adriankusuma.png" alt="Team 1" class="w-full h-full object-cover">
             </div>
             <div class="info-box bg-white rounded-md shadow-md p-4">
-                <h2 class="font-semibold text-lg text-red-400">Adrian Rafael Kusama</h2>
+                <h2 class="font-semibold text-lg text-blue-400">Adrian Rafael Kusama</h2>
                 <div class="instagram-info flex items-center justify-center mb-4">
                     <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
                     <p class="text-sm text-indigo-400">@adriankusumaaaa</p>
@@ -30,7 +30,7 @@
                 <img src="../../resources/images/louissetyandaru.png" alt="Team 1" class="w-full h-full object-cover">
             </div>
             <div class="info-box bg-white rounded-md shadow-md p-4">
-                <h2 class="font-semibold text-lg text-red-400">Louis Setyandaru Tri Ananda</h2>
+                <h2 class="font-semibold text-lg text-blue-400">Louis Setyandaru Tri Ananda</h2>
                 <div class="instagram-info flex items-center justify-center mb-4">
                     <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
                     <p class="text-sm text-indigo-400">@louisstrn</p>
@@ -42,7 +42,7 @@
                 <img src="../../resources/images/widhyastanto.png" alt="Team 1" class="w-full h-full object-cover">
             </div>
             <div class="info-box bg-white rounded-md shadow-md p-4">
-                <h2 class="font-semibold text-lg text-red-400">Widhyastanto Ramadhian</h2>
+                <h2 class="font-semibold text-lg text-blue-400">Widhyastanto Ramadhian</h2>
                 <div class="instagram-info flex items-center justify-center mb-4">
                     <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
                     <p class="text-sm text-indigo-400">@stant_221</p>
@@ -56,7 +56,7 @@
                 <img src="../../resources/images/michaeldavidsin.png" alt="Team 1" class="w-full h-full object-cover">
             </div>
             <div class="info-box bg-white rounded-md shadow-md p-4">
-                <h2 class="font-semibold text-lg text-red-400">Michael David Sin</h2>
+                <h2 class="font-semibold text-lg text-blue-400">Michael David Sin</h2>
                 <div class="instagram-info flex items-center justify-center mb-4">
                     <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
                     <p class="text-sm text-indigo-400">@michaeldavidsin</p>
@@ -68,7 +68,7 @@
                 <img src="../../resources/images/bernicko.png" alt="Team 1" class="w-full h-full object-cover">
             </div>
             <div class="info-box bg-white rounded-md shadow-md p-4">
-                <h2 class="font-semibold text-lg text-red-400">Bernicko Raphael Sugito</h2>
+                <h2 class="font-semibold text-lg text-blue-400">Bernicko Raphael Sugito</h2>
                 <div class="instagram-info flex items-center justify-center mb-4">
                     <img src="../../resources/images/instagram.png" alt="" class="w-5 h-5 mr-2">
                     <p class="text-sm text-indigo-400">@bernicko_rphl</p>

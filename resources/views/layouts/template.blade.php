@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="../../resources/images/logo_TabBro.png" type="image/x-icon">
+    <link rel="icon" href="../../resources/images/Logo_TabBro.png" type="image/x-icon">
 
     @yield('link')
 
@@ -26,7 +26,7 @@
         }
 
         .navbar a:hover {
-            background-color: #ff1847;
+            background-color: #196CBA;
             color: white;
         }
 
@@ -39,7 +39,7 @@
 
     <header class="header">
 
-        <a href="/"><img src="../../resources/images/logo.png" alt="logo" id="logo"></a>
+        <a href="/"><img src="../../resources/images/digpro_logo_dark.png" alt="logo" id="logo"></a>
 
         <input type="checkbox" id="check">
         <label for="check" class="icons">
@@ -58,7 +58,7 @@
             <a href="daftar_form.blade.php" style="--i:3">Daftar</a>
             <a href="tentang_kami.blade.php">Tentang Kami</a>
             <a href="butuh_bantuan.blade.php" style="--i:3">Butuh Bantuan</a>
-            <a href="langganan_form.blade.php" style="--i:3">Langganan</a>
+            <a href="langganan_form.blade.php" style="--i:3">Paket Kami</a>
         </nav>
 
     </header>
@@ -69,7 +69,7 @@
             <div class="md:flex md:justify-between">
               <div class="mb-6 md:mb-0">
                   <a href="https://flowbite.com/" class="flex items-center">
-                      <img src="../../resources/images/logo.png" class="h-8 mr-3" alt="Company Logo" />
+                      <img src="../../resources/images/digpro_logo_dark.png" class="h-20 mr-3" alt="Company Logo" />
                       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Digital Promotion .Idn</span>
                   </a>
               </div>
@@ -78,7 +78,7 @@
                       <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Links</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li class="mb-4">
-                              <a href="/about_us_view" class="hover:underline">Tentang Kami</a>
+                              <a href="/tentang_kami.blade.php" class="hover:underline">Tentang Kami</a>
                           </li>
                           <li>
                               <a href="/project_view" class="hover:underline">Proyek</a>
@@ -93,17 +93,6 @@
                           </li>
                           <li>
                               <a href="https://wa.me/628115912599" target="_blank" class="hover:underline">WhatsApp</a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a href="#" class="hover:underline">Privacy Policy</a>
-                          </li>
-                          <li>
-                              <a href="#" class="hover:underline">Terms &amp; Conditions</a>
                           </li>
                       </ul>
                   </div>
